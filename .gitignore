@@ -1,3 +1,9 @@
+# Ignore all files and directories
+*
+
+# Allow README.md
+!README.md
+
 # Prerequisites
 *.d
 
