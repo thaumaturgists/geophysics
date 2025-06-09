@@ -1,5 +1,3 @@
-This is a placeholder
-
 ### Reassembling the Files in Git Bash
 
 To reassemble the split files back into a single file, you can use the `cat` command:
@@ -13,3 +11,4 @@ To reassemble the split files back into a single file, you can use the `cat` com
 
 OLD_Desktop060820251445.zip: SHA384
 2ba0f6fee7d3afb658225a91ca75dd3d08bab4c9a102589ad71dea3129cb2e4a23f1f7b9e5256bd14198152560b8c116
+
