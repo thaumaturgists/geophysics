@@ -2,12 +2,30 @@
 
 To reassemble the split files back into a single file, you can use the `cat` command:
 
+> Make sure you are in the folder with the file
+```bash
+cd path-to-this-file
+```
+
+> use "ls" to see the files
+```bash
+ls
+```
+part_aa part_ab part_ac part_ad part_ae
+
 1. **Run the `cat` command:**
    ```bash
    cat part_* > OLD_Desktop060820251445.zip
    ```
    - This command concatenates all files starting with `part_` into a new file called `OLD_Desktop060820251445.zip`.
 
+### Checking the hash
+To make sure it is undamaged
+
+> To check the SHA-384 hash of a file using Git Bash, you can use the shasum command with the -a option to specify the hash algorithm. Here’s the command you would use:
+```bash
+shasum -a 384 OLD_Desktop060820251445.zip
+```
 
 OLD_Desktop060820251445.zip: SHA384
 2ba0f6fee7d3afb658225a91ca75dd3d08bab4c9a102589ad71dea3129cb2e4a23f1f7b9e5256bd14198152560b8c116
